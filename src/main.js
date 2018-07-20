@@ -3,6 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import jQuery from 'jquery'
+import Popper from 'popper.js'
+
+global.jQuery = jQuery;
+global.Popper = Popper;
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.css'
 
 Vue.config.productionTip = false
 
